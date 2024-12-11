@@ -7,7 +7,7 @@
     "devStart": "nodemon server.js",
     "start": "node server.js"
   },
-  "author": "Kunal Verma",
+  "author": "afzal Nezam",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.16"
