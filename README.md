@@ -1,4 +1,6 @@
-# Deploying a Node Js Application on AWS EC2
+# DEPLOYING A WEB APPLICATION ON AWS
+
+Learn how to deploy a simple web application using Amazon Web Services (AWS). This project will teach the basics of cloud deployment, including setting up a server and configuring the web application.
 
 ### Testing the project locally
 
@@ -48,7 +50,7 @@ sudo apt update
 
 1. Clone this project in the remote VM
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone https://github.com/Afzal-Nezam/Codtech-Project-Task-1
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
@@ -66,7 +68,3 @@ SECRET_KEY=""
 npm install
 npm run start
 ```
-
-> NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
-
-### Project is deployed on AWS 🎉
